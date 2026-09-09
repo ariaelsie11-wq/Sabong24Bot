@@ -1,0 +1,15 @@
+{
+  "name": "relationship-tips-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with daily relationship tips, quotes, and conversation starters",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  }
+}
