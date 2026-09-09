@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: relationship-tips-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: DAILY_HOUR_UTC
+        value: "13"
